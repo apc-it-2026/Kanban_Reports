@@ -1,0 +1,517 @@
+.dropdown {
+    padding: 8px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+.dropdowncontainer {
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+  } 
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+.dropdown-options label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+.dropdown-options input {
+    margin-right: 8px;
+  }
+
+.po_class {
+    background-color: blueviolet;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+   }
+
+.a-card {
+    border-radius: 5px;
+    max-height: 38vh;
+    width: 100%;
+    background-color: #def2f1;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    transition: all 3s ease;
+    overflow-y: auto;
+    margin-top:10px ;
+  }
+
+.a-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+  }
+
+.table-container {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+.table_wrapper {
+    width: 100%;
+  }
+
+tr th {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    min-width: 100px;
+    max-width: 400px;
+  }
+
+tbody {
+    max-height: 250px;
+    text-align: center;
+  }
+
+tbody td,
+  tr th {
+    text-align: center;
+    padding: 10px;
+   }
+
+td {
+    background-color: #8697c4;
+     font-weight: bold;
+    cursor: pointer;
+    min-width: 100px;
+    text-align: center;
+    color: black;
+  }
+
+
+
+tr:hover {
+    color: white;
+    background-color: red;
+  }
+
+.table_wrapper th,
+  .table_wrapper td {
+    box-sizing: border-box;
+  }
+
+.submitbutton,
+  .material-button,
+  .pocompletion-button {
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 7px 20px 7px 20px;
+    text-align: center;
+     
+  }
+
+.submitbutton:hover,
+  .material-button:hover,
+  .pocompletion-button:hover {
+    background-color: rgb(55, 41, 247);
+    color: white;
+  }
+.submitbutton {
+    background: #7f06f0;
+  }
+  .material-button {
+    background-color: #874f41;
+  }
+  .pocompletion-button {
+    background-color: #6f118f;
+  }
+
+.whatsapp-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    z-index: 1000;
+    border: 2px solid white;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+.whatsapp-button:hover {
+    background-color: blueviolet;
+  }
+.whatsapp-button i {
+    color: green;
+    font-size: 2rem;
+  }
+
+.modal {
+    position: fixed;
+    z-index: 999;
+    bottom: 5%;
+    right: 1%;
+    width: 500px;
+    margin-left: -150px;
+    background-color: rgba(73, 218, 223, 0.8);
+    transition: calc(0);
+    border-radius: 5px;
+    border: 2px solid rgb(64, 176, 221);
+    box-shadow: #32e721;
+  }
+
+.FunctionModal {
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(99, 81, 197, 0.8);
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    border: 2px solid rgb(64, 176, 221);
+    box-shadow: 0 0 10px #32e721;
+    overflow-x: auto;
+  }
+
+h2 {
+    color: #e40b0b;
+    text-align: center;
+    margin-top: 30px;
+  }
+.minus:hover {
+    background-color: aliceblue;
+    color: rgb(14, 15, 15);
+  }
+  .times:hover {
+    background-color: aliceblue;
+    color: rgb(7, 7, 7);
+  }
+.close_minimise_buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .minus,
+  .times {
+    padding: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+.minus:hover,
+  .times:hover {
+    background-color: aliceblue;
+  }
+
+.dropdown2 {
+    position: absolute;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 5px;
+    margin: 20px;
+  }
+
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .dropdown-item:hover {
+    background: lightblue;
+  }
+
+.send-button {
+    padding: 5px 30px 5px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #0c40ec;
+    cursor: pointer;
+    background-color: #0c40ec;
+    color: white;
+    width: 200px;
+  }
+.emp-ph-input-field {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+  }
+
+.whatsapp-response {
+     font-weight: bold;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+   }
+  .whatsapp-response.success {
+    color: green;
+  }
+  .whatsapp-response.error {
+    color: rgb(231, 10, 10);
+  }
+
+.whatsapp-note {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .detail-view {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .detail-view:hover {
+    background-color: rgb(230, 114, 20);
+  }
+  .selected-row {
+    color: red;
+  }
+  .mouse-over {
+    background-color: red;
+  }
+
+.po-input-field {
+    border-radius: 5px;
+  }
+  .article-input-field {
+    border-radius: 5px;
+  }
+
+.po-suggetions {
+    position: absolute;
+    width: auto;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow-y: auto;
+    max-height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    scrollbar-width: none;
+  }
+
+.po-suggetion-items {
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 30px 10px 30px;
+  } 
+
+  .po-suggetion-items:hover {
+    background-color: #15be2c;
+    border-radius: 5px;
+  } 
+
+.cut-blackbackground,
+  .cut-greenbackground,
+  .cut-redbackground,
+  .cut-orangebackground {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .cut-blackbackground {
+    background-color: black;
+  }
+  .cut-greenbackground {
+    background-color: rgb(32, 219, 7);
+  }
+  .cut-redbackground {
+    background-color: rgb(245, 9, 9);
+  }
+  .cut-orangebackground {
+    background-color: rgb(233, 130, 13);
+  }
+.stit-blackbackground,
+  .stit-greenbackground,
+  .stit-redbackground,
+  .stit-orangebackground {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .stit-blackbackground {
+    background-color: black;
+  }
+  .stit-greenbackground {
+    background-color: rgb(32, 219, 7);
+  }
+  .stit-redbackground {
+    background-color: rgb(245, 9, 9);
+  }
+  .stit-orangebackground {
+    background-color: rgb(250, 177, 19);
+  }
+.ass-blackbackground,
+  .ass-greenbackground,
+  .ass-redbackground,
+  .ass-orangebackground {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .ass-blackbackground {
+    background-color: black;
+  }
+  .ass-greenbackground {
+    background-color: rgb(32, 219, 7);
+  }
+  .ass-redbackground {
+    background-color: rgb(245, 9, 9);
+  }
+  .ass-orangebackground {
+    background-color: rgb(233, 130, 13);
+  }
+.material-greenbackground,
+  .materail-redbackground,
+  .materail-blackbackground {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .material-greenbackground {
+    background-color: rgb(32, 219, 7);
+  }
+  .materail-redbackground {
+    background-color: rgb(245, 9, 9);
+  }
+  .materail-blackbackground {
+    background-color: black;
+  }
+
+.headding {
+    background-color: rgb(48, 128, 233);
+    padding: 10px;
+    color: rgb(97, 241, 14);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+   .issue-text {
+    height: 200px;
+                  width: 100%;
+                  padding: 10px;
+                  border-radius: 5px;
+                  border: 1px solid blue;
+                  font-size: 14px;
+                  margin-top: 20px;
+   }
+.department-text {
+  width: 100%;
+                  border: 1px solid blue;
+                  margin: 10px 0 10px 0px;
+                  border-radius: 5px;
+                  padding: 5px;
+} 
+.po-headding {
+  color: #15be2c;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.button-style{
+  font-weight: bold;
+  border-radius: 5px;
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.material-button {
+  background-color: rgb(56, 130, 241);
+  padding: 5px;
+}
+.po-header { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+}
+
+.po-heading-left {
+  flex: 1;
+  position: sticky;
+}
+
+.po-heading {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(250, 178, 24);
+  margin-bottom: 10px;
+  position: sticky;
+}
+
+.po-status-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px;
+}
+
+.status-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.green {
+  background-color: rgb(43, 240, 43);
+}
+
+.status-dot.red {
+  background-color: red;
+}
+
+.status-dot.orange {
+  background-color: orange;
+}
+
+.status-dot.black {
+  background-color: black;
+}

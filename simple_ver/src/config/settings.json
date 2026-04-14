@@ -1,0 +1,19 @@
+{
+  "theme": "light",
+  "colorWeak": false,
+  "navbar": true, 
+  "menu": true,
+  "hideMenu": false,
+  "menuCollapse": false,
+  "footer": true,
+  "themeColor": "#01C3E6",
+  "menuWidth": 220,
+  "globalSettings": false,
+  "device": "desktop",
+  "tabBar": true,
+  "menuFromServer": true, 
+  "api_url": "http://localhost:60626/api/CommonCall" ,                                                       
+  "serverMenu": [] ,   
+  "CompanyCode": "apcmes",     
+  "CompanyName": "APCMES"            
+}    

@@ -1,0 +1,18 @@
+export default {
+  'menu.list.Kanban_device_A': '设备数位化管理看板',
+  'Kanban_device_A.form.daterange': '日期范围',
+  'Kanban_device_A.form.org': '工厂',
+  'Kanban_device_A.form.search': '查 询',
+  'Kanban_device_A.form.devicestatusPiechart': '设备当前状态占比饼图',
+  'Kanban_device_A.form.diagnosiscausesRanking': '设备故障诊断原因排名',
+  'Kanban_device_A.form.Maintenancetasks': '保养任务',
+  'Kanban_device_A.form.repairtasks': '维修任务',
+  'Kanban_device_A.form.devMaintenance': '设备保养',
+  'Kanban_device_A.form.devrepair': '设备维修',
+  'Kanban_device_A.form.detail': '查看详情',
+  'Kanban_device_A.form.onefinishrate': '一级保养完成率',
+  'Kanban_device_A.form.twofinishrate': '二级保养完成率',
+  'Kanban_device_A.form.repairOk': '维修OK',
+  'Kanban_device_A.form.repairing': '维修中',
+  'Kanban_device_A.form.waitrepair': '待维修',
+};

@@ -1,0 +1,378 @@
+.card-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.div {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 12px solid white;
+  cursor: pointer;
+}
+
+.submit-button {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, 'proxima nova', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  outline: 0;
+  padding: 10px 10px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 150px;
+  border: 2px solid yellowgreen;
+}
+
+.submit-button:hover,
+.submit-button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+
+.timeline-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #000000;
+  background-color: #def2f1;
+  color: #5d7504;
+  max-height: 400px;
+  overflow-y: auto;
+
+}
+
+.timeline-card2 {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #000000;
+  background-color: #def2f1;
+  color: #5d7504;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.title {
+  font-weight: bold;
+  color: #ec1fca;
+}
+
+.phases-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.phase-column {
+  flex: 1 1 180px;
+  max-width: 220px;
+}
+
+.phase-card {
+  padding: 12px;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.phase-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.phase-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.phase-date {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.phase-date span {
+  font-weight: bold;
+}
+
+.table {
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.th {
+  background-color: #fc19e6;
+  padding: 10px;
+  color: white;
+}
+
+.td {
+  color: black;
+  background-color: #9ff79c;
+}
+
+.header-text {
+  color: #ff33cc;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  line-height: 1.4;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #e0f053, #32eeee);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+.header-text:hover {
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #4656eb, #32eeee);
+}
+
+ 
+
+
+.size-container {
+ 
+  border-radius: 12px;
+ 
+  max-height: 400px;
+}
+
+.size-table {
+  width: 100%;
+ 
+}
+
+.size-table th,
+.size-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 14px;
+  color: #080808;
+}
+
+.size-table th {
+  background-color: #d1f506;
+  font-weight: 600;
+   color: #1014f5;
+  position: sticky;
+}
+
+.size-table td {
+  background-color: white;
+}
+
+.size-table tr:hover {
+  background-color: #0b80f5;
+}
+
+.size-table tr:last-child td {
+  border-bottom: none;
+}
+
+.buttons-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: flex-start;
+}
+
+.table-card {
+  border-radius: 5px;
+  max-height: 50vh;
+  width: 100%;
+  background-color: #3f8a86;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  transition: all 3s ease;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.po-field {
+  margin: 0px 10px 0px 10px;
+  border: 2px solid rgb(247, 242, 242);
+  border-radius: 5px;
+  display: flex;
+  color: white;
+  gap: 10px;
+  align-items: center;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.article-field {
+  margin: 0px 10px 0px 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.responsive-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.size-headding {
+  color: #f7f71e;
+  margin: 0 0 10px 0;
+}
+
+.po-suggetion {
+  position: absolute;
+  width: auto;
+  z-index: 1000;
+  background: rgb(206, 49, 49);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow-y: auto;
+  max-height: 200px;
+  margin-top: 240px;
+  padding: 10px;
+  scrollbar-width: none;
+}
+
+.po-suggetions-items {
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 30px 10px 30px;
+}
+
+.po-suggetions-items:hover {
+  background-color: #15be2c;
+  border-radius: 5px;
+}
+
+.article-suggetions {
+  position: absolute;
+  width: auto;
+  z-index: 1000;
+  background: rgb(206, 49, 49);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow-y: auto;
+  max-height: 200px;
+  margin-top: 240px;
+  padding: 10px;
+  scrollbar-width: none;
+}
+
+.article-suggetion-items {
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px 30px 10px 30px;
+}
+
+.article-suggetion-items:hover {
+  background-color: #15be2c;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: rgb(187, 243, 34);
+  padding: 10px;
+  min-width: 100px;
+  border-radius: 5px;
+  border: 2px solid greenyellow;
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(122, 243, 52);
+  border: 2px solid yellow;
+}
+
+.outputs-status {
+  display: flex;
+  gap: 10px;
+}
+
+.indication-green,
+.indication-gray,
+.indication-yellow,
+.indication-red,
+.indication-black {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.indication-green {
+  background-color: rgb(11, 231, 11);
+}
+
+.indication-gray {
+  background-color: gray;
+}
+
+.indication-red {
+  background-color: rgb(245, 24, 24);
+}
+
+.indication-yellow {
+  background-color: rgb(241, 166, 26);
+}
+
+.indication-black {
+  background-color: black;
+} 
+ .table-details {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    margin-bottom:10px ;
+    margin-top: 10px;
+  }
+  .table-details span {
+    background-color: rgb(243, 170, 170);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+  }
