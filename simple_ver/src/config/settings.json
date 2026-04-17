@@ -12,7 +12,7 @@
   "device": "desktop",
   "tabBar": true,
   "menuFromServer": true, 
-  "api_url": "http://localhost:60626/api/CommonCall" ,                                                       
+  "api_url": "http://10.3.0.24:8092//api/commoncall" ,                                                       
   "serverMenu": [] ,   
   "CompanyCode": "apcmes",     
   "CompanyName": "APCMES"            
